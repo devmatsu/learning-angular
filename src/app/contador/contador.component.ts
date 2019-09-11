@@ -16,4 +16,10 @@ export class ContadorComponent implements OnInit {
     this.numero++;
   }
 
+  public exibirConteudo = false;
+
+  public toggleConteudo() {
+    this.exibirConteudo = !this.exibirConteudo;
+  }
+
 }
