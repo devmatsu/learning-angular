@@ -9,8 +9,8 @@ Para criar um projeto com angular, utilizamos o seguinte comando no terminal: `n
 ## Criando os componentes
 Execute `$ ng generate component nome-do-componente` ou simplesmente `$ ng g c nome-do-componente`.
 
-## Development server
-Digite no terminal `$ ng serve` para o servidor de desenvolvimento. Navegue até `http://localhost:4200/`. O app irá automcaticamente recarregar caso você mude qualquer arquivo. <br>
+## Servidor de desenvolvimento
+Digite no terminal `$ ng serve` e navegue até `http://localhost:4200/`. O app irá automcaticamente recarregar caso você mude qualquer arquivo. <br>
 Podemos executar em outra porta também adicionando `-port` no final. Ficando assim: `$ ng serve -port 4201`.
 
 ## Rodar testes unitários
