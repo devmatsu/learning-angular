@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./caixa-de-texto.component.css']
 })
 export class CaixaDeTextoComponent {
-  onKeyPress(event) {
-    console.log((event.target.value.length));
+  contarCaracteres(texto: string) {
+    console.log(texto.length);
   }
 }
