@@ -6,7 +6,7 @@
    </div>
 </div>
 
-<div class="col-md5 mx-auto">
+<div class="col-md-5 mx-auto">
    <div class="card">
       <div class="card-header">
          Login
@@ -16,7 +16,7 @@
             <div class="form-group">
                <label for="email" class="col-sm-4 col-form-label">Email</label>
                <div class="col-sm-12">
-                  <input class="form-control" type="email" [(ngModel)]="usuario.email" name="email" placeholder="Email" required>
+                  <input class="form-control" type="email" [(ngModel)]="usuario.email" name="email" email placeholder="Email" required>
                </div>
             </div>
             <div class="form-group">
@@ -29,7 +29,7 @@
                <a routerLink="/cadastro">Não possui uma conta? Cadastre-se.</a>
             </div>
             <div class="col-sm-12">
-               <button type="submit" class="btn btn-primary float-right" {disabled}="!f.valid">Login</button>
+               <button type="submit" class="btn btn-primary float-right" [disabled]="!f.valid">Login</button>
             </div>
          </form>
       </div>
